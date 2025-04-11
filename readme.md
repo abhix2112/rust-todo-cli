@@ -3,17 +3,18 @@
 A simple, terminal-based Todo List application built in Rust with features like add, view, edit, delete, and mark as completed. Data is stored securely using base64-encoded JSON files.
 
 ---
+```bash
+✨ Features
 
-## ✨ Features
-
-- Add new todos with title, description, status, and priority
-- View all todos in a structured format
-- Edit existing todos by ID
-- Delete todos
-- Mark todos as completed
-- Persistent local storage via base64-encoded JSON
-- Beautiful CLI prompts and emoji-enhanced UI 🎉
-
+- ✅ Add new todos with title, description, status, and priority
+- 📋 View all your todos in a structured format
+- 🛠️ Edit any todo by ID
+- 🗑️ Delete todos you no longer need
+- ✅ Mark todos as completed
+- 🔒 **Data is securely stored in a base64-encoded file** (`todo.json`)  
+- 💾 **Persistent storage** – todos remain saved even after you close the terminal
+- 🌈 Emoji-enhanced CLI interface
+```
 ---
 
 ## 🚀 Getting Started
@@ -38,13 +39,13 @@ cargo run
 ```
 
 📂 File Structure
-
+```bash
 ├── src/
 │ └── main.rs # Main application logic
 ├── todo.json # Base64-encoded todos storage
 ├── Cargo.toml # Dependencies and metadata
 └── README.md # Project documentation
-
+```
 📸 Sample Output
 
 📋 Welcome to the Todo List
